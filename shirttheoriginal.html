@@ -1,0 +1,108 @@
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Kainan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page-store">
+
+  <div class="container-fluid">
+	  <header class="row" id="top">
+	    <div class="col-12">
+		    <img loading="lazy" src="image/header2.png" alt="header" class="headerimage">
+	    </div>
+    </header>
+  </div> 
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">HOME</a>
+    <a href="balbacua.store.html">KAINAN</a>
+    <a href="balbacua.about.html">ABOUT</a>
+    <a href="balbacua.join.html">JOIN</a>
+  </div>
+    
+  <div class="container">
+    <div class="center">
+      <h2 onclick="openNav()" class="NavBarButton">MENU</h2> 
+    </div>
+  </div>
+  <div id="main" class="main"></div>
+  <br>
+       
+  <div class="body-container">
+    <div>
+      <h1 class="product-title">The Original Shirt</h1>
+        <br style="line-height: 25px;">           
+    </div>    
+  </div>
+
+  
+  <div class="content-product">
+    <img class="prodslide" src="image/store/2.jpg" style="display: inline-block;" >
+    <img class="prodslide" src="image/store/2-back.jpg" style="display: none;">
+  
+    <div class="option-row">
+      <div class="option">
+        <img class="option-image opacity hover-opacity-off" src="image/store/2.jpg" onclick="currentDiv(1)">
+      </div>
+      <div class="option">
+        <img class="option-image opacity hover-opacity-off" src="image/store/2-back.jpg" onclick="currentDiv(2)">
+      </div>
+    </div>
+  </div>
+
+  <div class="body-container">
+    <div>
+      <h3 class="welcome-text">₱850.00</h3>
+      <div class="buybutton" onclick="outofstock()"><strong>Out of Stock</strong></div><br style="line-height: 15px;">
+
+      <div class="size-container">
+        <label class="size-option">
+          <input type="radio" name="radioname" value="one_value" checked="checked"/>
+          <div>S</div>
+        </label>
+        <label class="size-option">
+          <input type="radio" name="radioname" value="another" />
+          <div>M</div>
+        </label>
+        <label class="size-option">
+          <input type="radio" name="radioname" value="another" />
+          <div>L</div>
+        </label>
+      </div>
+      <br style="line-height: 25px;">
+      <p class="product-desc">Be proud of wearing your habit of cycling with this shirt created by Après Vélo.
+      </p>
+        <br style="line-height: 10px;">                
+    </div>    
+  </div>
+
+  <div class="generalinfo">
+    <h2 class="generaltitle">GENERAL INFORMATION</h2>  
+      <br style="line-height: 20px;">  
+      <p class="generaldesc">Part of what’s fun about vintage clothing is how one-off the garments are.  They’ve been used and abused and the fades, scratches, cuts, and more set it apart from all others.  Après Vélo makes these new, fresh out of the bag t-shirts one-off thanks to their screen printing, their garment dying, and heavy acid washing.  New-vintage, contemporary-classic, modern-old school, they’re new but timeless.  And they’re fun and expressive, shirts that you’ll remember wearing, others will remember seeing.
+        <br><br><br>
+        Après Vélo starts with 100% cotton jersey.  They then dye the garment.  When that has set and dried, they apply the screened design. When that has set, they then put the shirt in heavy acid bath with other shirts.  The process tumbles the shirts around, adding a certain distressing to the colors, and then they take it out.  Each shirt comes out looking different than it did going in, and each shirt looks different than the others because of the way the washing works.  There will be uneven fading, there will be extra-soft hand, and the garment will be pre-shrunk and the colors set even better than they were before.
+        <br><br><br>
+        It’s a new-old look that is bespoke in character.  Each shirt is unique, a classic, something no one else has.  And, when you combine the luxurious comfort, it’s hard to turn down, or not pull out of your drawer.
+      </p>
+  </div>
+  <div class="productfooter">
+    <img src="image/productfooter/1.png" alt="product footer" class="image-footer">
+    <img src="image/productfooter/2.png" alt="product footer" class="image-footer">
+    <img src="image/productfooter/3.png" alt="product footer" class="image-footer">
+  </div>
+
+  <div class="footer">
+    <footer>
+      <img src="image/footer.png" alt="footer.png" class="footerimage">
+    </footer>
+  </div>   
+</body>
+</html>
+<script src="script.js"></script>

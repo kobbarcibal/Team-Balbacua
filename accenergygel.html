@@ -1,0 +1,115 @@
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Kainan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page-store">
+
+  <div class="container-fluid">
+	  <header class="row" id="top">
+	    <div class="col-12">
+		    <img loading="lazy" src="image/header2.png" alt="header" class="headerimage">
+	    </div>
+    </header>
+  </div> 
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">HOME</a>
+    <a href="balbacua.store.html">KAINAN</a>
+    <a href="balbacua.about.html">ABOUT</a>
+    <a href="balbacua.join.html">JOIN</a>
+  </div>
+    
+  <div class="container">
+    <div class="center">
+      <h2 onclick="openNav()" class="NavBarButton">MENU</h2> 
+    </div>
+  </div>
+  <div id="main" class="main"></div>
+  <br>
+       
+  <div class="body-container">
+    <div>
+      <h1 class="product-title">Gu Roctane Energy Gel</h1>
+        <br style="line-height: 25px;">           
+    </div>    
+  </div>
+
+  
+  <div class="content-product">
+    <img class="prodslide" src="image/store/6.jpg" style="display: inline-block;" >
+    <img class="prodslide" src="image/store/6-cherrylime.jpg" style="display: none;">
+    <img class="prodslide" src="image/store/6-lemon.jpg" style="display: none;">
+  
+    <div class="option-row">
+      <div class="option">
+        <img class="option-image opacity hover-opacity-off" src="image/store/6.jpg" onclick="currentDiv(1)">
+      </div>
+      <div class="option">
+        <img class="option-image opacity hover-opacity-off" src="image/store/6-cherrylime.jpg" onclick="currentDiv(2)">
+      </div>
+      <div class="option">
+        <img class="option-image opacity hover-opacity-off" src="image/store/6-lemon.jpg" onclick="currentDiv(3)">
+      </div>
+    </div>
+  </div>
+
+  <div class="body-container">
+    <div>
+      <h3 class="welcome-text">₱100.00</h3>
+      <div class="buybutton" onclick="outofstock()"><strong>Out of Stock</strong></div><br style="line-height: 15px;">
+
+      <div class="size-container">
+        <label class="size-option">
+          <input type="radio" name="radioname" value="one_value" checked="checked"/>
+          <div>BB</div>
+        </label>
+        <label class="size-option">
+          <input type="radio" name="radioname" value="another" />
+          <div>CL</div>
+        </label>
+        <label class="size-option">
+          <input type="radio" name="radioname" value="another" />
+          <div>LE</div>
+        </label>
+      </div>
+      <br style="line-height: 25px;">
+      <p class="product-desc">GU Roctane Energy Gels are crafted to supply both energy and key nutrients like electrolytes and amino acids to keep you feeling strong and energized.
+      </p>
+        <br style="line-height: 10px;">                
+    </div>    
+  </div>
+
+  <div class="generalinfo">
+    <h2 class="generaltitle">GENERAL INFORMATION</h2>  
+      <br style="line-height: 20px;">  
+      <p class="generaldesc">
+        Why take the GU Roctane Ultra Endurance Energy Gel on your ride instead of the regular GU Energy Gel? It all depends on how long and hard you are planning on training. Though they each have about the same amount of carbs and sugars for energy, the GU Roctane Ultra Endurance Energy Gel has taken the extra step and focused on ingredients that will help the body combat the evils of fatigue that inevitably plague endurance athletes after hours on the road.
+        <br><br>
+        The GU Roctane Ultra Endurance Energy Gel has been specifically formulated to interact and mesh well with the other GU products you can use before, during and after your workout. On a long ride, you may well want to start out with a couple of regular GU Energy Gels, along with a bottle of the Roctane Endurance mix, but once you move into the third or fourth hour and beyond, you will definitely feel the benefit of switching over to the Roctane Ultra Endurance Energy Gel, largely because many of the ingredients unique to the Roctane gel have been added specifically to combat issues like central fatigue, a decrease in pH from pushing your lactic threshold, muscle fatigue and recovery issues, as well as ingredients to decrease your perceived effort.
+        <br><br>
+        Essentially, the Roctane Ultra gel is offering you the sort of nutritional support endurance sports require but in an easily accessible package. For instance, the Roctane gel has a special mix of four essential amino acids that are key to synthesizing protein and acting as a fuel source for working muscles. Another ingredient that Roctane focuses on more than the regular GU gel is sodium, which is the main electrolyte lost in sweat. Losing too much sodium in your system can result in cramping and in extreme cases can bring on hyponatremia. Hyponatremia is a condition of having too little sodium in the blood as a result of drinking too much plain water, and can be very common in endurance athletes. Using Roctane Ultra gel in conjunction with the Roctane Endurance drink mix will all but guarantee that you will not suffer from the dangerous conditions that can result from extreme training.
+        <br><br>
+        The GU Roctane Ultra Endurance Energy Gel will provide you with one more piece to the nutritional puzzle for those weeks when you are pushing your body to the limits with the goal of expanding your physical boundaries. 
+    </p>
+  </div>
+  <div class="productfooter">
+    <img src="image/productfooter/1.png" alt="product footer" class="image-footer">
+    <img src="image/productfooter/2.png" alt="product footer" class="image-footer">
+    <img src="image/productfooter/3.png" alt="product footer" class="image-footer">
+  </div>
+
+  <div class="footer">
+    <footer>
+      <img src="image/footer.png" alt="footer.png" class="footerimage">
+    </footer>
+  </div>   
+</body>
+</html>
+<script src="script.js"></script>
